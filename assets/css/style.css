@@ -342,6 +342,15 @@ form button.btn-primary:hover {
 
 .services .media {
   margin: 40px 0;
+  display: flex;
+  flex-direction: column;
+  border: 1px rgb(165, 165, 165) solid;
+  
+  box-shadow: rgb(150,150,150) 0px 3px 5px;
+}
+
+.services .media img{
+  max-width: 100%;
 }
 
 .services h5 {
