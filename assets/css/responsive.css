@@ -19,6 +19,7 @@
     margin-bottom: 0;
     margin-right: 25px;
   }
+  
 }
 
 /*-----------------------------------
@@ -26,10 +27,10 @@
 ------------------------------------*/
 @media (min-width: 768px) {
   .navbar-brand img {
-    width: 100px;
+    width: 180px;
   }
   .navbar-expand-md .navbar-nav .nav-link {
-    padding: 8px 10px;
+    padding: 8px 0px;
   }
   .navbar-expand-md .navbar-nav .nav-item {
     margin-right: 12px;
@@ -142,10 +143,10 @@
 ------------------------------------*/
 @media (min-width: 992px) {
   .navbar-expand-md .navbar-nav .nav-link {
-    padding: 8px 13px;
+    padding: 8px 0px;
   }
   .navbar-expand-md .navbar-nav .nav-item {
-    margin-right: 22px;
+    margin-right: 20px;
   }
   .hero .slide-content {
     min-height: 100vh;
@@ -163,6 +164,9 @@
   .title h1 {
     font-size: 48px;
   }
+  .navbar-brand img {
+    width: 15em;
+  }
 }
 
 /*-----------------------------------
@@ -170,7 +174,7 @@
 ------------------------------------*/
 @media (min-width: 1200px) {
   .navbar-brand img {
-    width: auto;
+    width: 25em;
   }
   .title h1 {
     font-size: 58px;
