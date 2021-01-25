@@ -8,7 +8,7 @@
 [Table of styles content]
 
 1 - Header
-2 - Hero
+2 - Fondo inicio
 3 - CTA
 4 - Services
 5 - Featured
@@ -167,7 +167,7 @@ form button.btn-primary:hover {
 }
 
 /*-----------------------------------
-    1 - Hero
+    1 - Fondo inicio
 ------------------------------------*/
 .hero {
   background: url("../images/fondoindex.jpg") no-repeat center;
@@ -356,7 +356,21 @@ form button.btn-primary:hover {
 }
 
 .services .media img{
-  max-width: 100%;
+  width: 100%;
+  height: 20em;
+  display: flex;
+  justify-content: center;
+}
+
+.imgblog{
+  display: flex;
+  justify-content: center;
+  width: auto;
+  height: 20em;
+}
+
+.sizeimg{
+  
 }
 
 .services h5 {
