@@ -35,6 +35,11 @@ header {
   background-size: cover;  
 }
 
+.bodybg{
+  background: url("../images/fondoindexbg.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
 
 header a {
   color: #fff;
@@ -350,9 +355,9 @@ form button.btn-primary:hover {
   margin: 40px 0;
   display: flex;
   flex-direction: column;
-  border: 1px rgb(165, 165, 165) solid;
- 
-  box-shadow: rgb(150,150,150) 0px 3px 5px;
+  box-shadow:#dfafe4 10px 10px 5px;
+  box-shadow:blueviolet -1px 5px 5px 1px;
+  
 }
 
 .border-radius{
@@ -373,13 +378,10 @@ form button.btn-primary:hover {
   height: 20em;
 }
 
-.sizeimg{
-  
-}
 
 .services h5 {
-  color: #26264b;
-  border-bottom: 2px solid #e7e7e7;
+  color: whitesmoke;
+  border-bottom: 2px solid #dfafe4;
   padding-bottom: 5px;
   margin-bottom: 10px;
 }
@@ -688,7 +690,7 @@ form button.btn-primary:hover {
     1 - Testimonials
 ------------------------------------*/
 .testimonial-and-clients {
-  background: url(../images/test-clients-bg.png) center center/cover no-repeat #ee1515;
+  background: url(../images/05_\ small-kitchen-homepersonalshopper.jpg) center center/cover no-repeat #ee1515;
 }
 
 .testimonials {
@@ -778,7 +780,7 @@ form button.btn-primary:hover {
     1 - Footer
 ------------------------------------*/
 footer {
-  background: url(../images/footer-bg.png) center center/cover no-repeat #26264b;
+  background: url(../images/hero-bg.jpg) center center/cover no-repeat #26264b;
 }
 
 /*-----------------------------------
