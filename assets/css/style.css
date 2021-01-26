@@ -351,8 +351,12 @@ form button.btn-primary:hover {
   display: flex;
   flex-direction: column;
   border: 1px rgb(165, 165, 165) solid;
-  
+ 
   box-shadow: rgb(150,150,150) 0px 3px 5px;
+}
+
+.border-radius{
+   border-radius:.5em;
 }
 
 .services .media img{
