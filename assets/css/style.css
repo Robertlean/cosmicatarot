@@ -459,7 +459,7 @@ form button.btn-primary:hover {
 }
 
 .recent-posts .btn {
-  margin-top: 60px;
+  margin-top: 1.75em;
 }
 
 .recent-posts .row .col-lg-6:nth-of-type(odd) .post-thumb {
@@ -475,16 +475,16 @@ form button.btn-primary:hover {
 }
 
 .post-thumb {
-  flex: 0 0 273px;
+  flex: 0 0 180px;
 }
 
 .post-content {
-  color: #ccc;
+  color: rgb(51, 13, 121);
 }
 
 .post-content time {
   font-size: 14px;
-  color: #ccc;
+  color: rgba(26, 10, 56, 0.53);
 }
 
 .post-content h3 {
@@ -1006,11 +1006,11 @@ span {
 
 .inputcoment{
   display: flex;
-  min-width:60%
+  /*min-width:60%*/
 }
 
 .content-img img{
-  max-width: 70%  
+  max-height: 70%  
 }
 
 .form-coment{
@@ -1021,4 +1021,13 @@ span {
 form .btn{
   height: 60px;
   display: flex;
+}
+
+.post-left{
+  display: grid;
+  justify-content: end;
+}
+
+.post-content h5{
+  color: rgb(73, 10, 190)
 }
