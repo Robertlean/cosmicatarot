@@ -39,6 +39,7 @@ header {
   background: url("../images/fondoindexbg.jpg");
   background-size: cover;
   background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
 header a {
@@ -994,4 +995,30 @@ span {
 }
 .subscribe-btn a{
   margin-right: 0px;
+}
+
+.coments{
+  display: flex;
+  width: 30%;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.inputcoment{
+  display: flex;
+  min-width:60%
+}
+
+.content-img img{
+  max-width: 70%  
+}
+
+.form-coment{
+  display: flex;
+  justify-content: space-between;
+}
+
+form .btn{
+  height: 60px;
+  display: flex;
 }

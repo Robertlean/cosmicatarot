@@ -19,6 +19,9 @@
     margin-bottom: 0;
     margin-right: 25px;
   }
+  .content-img img{
+    width:50%
+  }
   
 }
 
@@ -187,5 +190,14 @@
     right: 0;
     height: 100%;
     padding: 75px 0;
+  }
+  .cta-content {
+    padding: 30px 0 90px;
+    color: #fff;
+    background-color: #ee1515;
+    position: relative;
+    z-index: 1;
+    border-top-right-radius: 200px;
+    border-bottom-left-radius: 200px;
   }
 }
