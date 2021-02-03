@@ -168,7 +168,7 @@ header::after {
 
 form input.btn-primary:hover,
 form button.btn-primary:hover {
-  background-color: #fff;
+  
   color: #ee1515;
 }
 
@@ -799,7 +799,7 @@ form button.btn-primary:hover {
     1 - Footer
 ------------------------------------*/
 footer {
-  background: url(../images/hero-bg.jpg) center center/cover no-repeat #26264b;
+  background: url(../images/mistercat.jpg) center center/cover no-repeat #26264b;
 }
 
 /*-----------------------------------
@@ -1030,4 +1030,8 @@ form .btn{
 
 .post-content h5{
   color: rgb(73, 10, 190)
+}
+
+.inline{
+  display: inline;
 }
