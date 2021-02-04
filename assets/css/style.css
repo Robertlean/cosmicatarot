@@ -1080,3 +1080,24 @@ form .btn{
 .inline{
   display: inline;
 }
+
+.imgblogcreate{
+  background-image: url("/assets/images/lgbt.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 20em;
+  min-width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #170936;
+  text-align: center;
+}
+
+.services .media a:hover{
+  color: none
+}
+.medi a:hover {
+  text-decoration: none;
+}
