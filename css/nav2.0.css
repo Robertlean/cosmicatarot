@@ -1,0 +1,87 @@
+.naveg{
+    margin: 0.8em 0;
+    color: whitesmoke;
+    align-items: center;
+    font-size: 1em;
+}
+.row{
+    display: flex;
+    justify-content: space-between
+}
+
+.ubicacion{
+    display: flex;
+    align-items: center;
+}
+.buscador{
+    display: flex;
+    justify-content: center;
+}
+.perfil{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+}
+
+.direccion{
+    margin-left: 0.4em
+}
+.usuario{
+    margin-right: 0.4em;
+}
+
+.btn-outline-success{
+    color: #047c7c;
+    border-color:#047c7c;
+}
+.btn-outline-success:hover{
+    color: #fff;
+    background-color: #047c7c;
+    border-color: #047c7c;
+}
+.form-inline .form-control{
+    width:none;
+}
+.far .fa-search{
+    color:#047c7c
+}
+
+.carousel{
+    height: 25em;
+    width: auto;
+    justify-content: center;
+    margin: 1em;
+    display: flex;
+}
+.fondo-carousel{
+    background-color: #047c7c;
+    
+    align-items: center;
+}
+.carousel.item{
+    align-items: center;
+}
+
+@media (min-width: 576px){
+    .form-inline .form-control{
+        width:auto
+    }
+}
+
+@media (min-width: 768px){
+    .form-inline .form-control{
+        width:12em
+    }
+}
+
+@media (min-width: 1024px){
+    .form-inline .form-control{
+        width:20em
+    }
+}
+
+@media (min-width: 1440px){
+    .form-inline .form-control{
+        width:30em;
+    }
+}
