@@ -1136,3 +1136,8 @@ form .btn{
   border: none;
   background-color: transparent;
 }
+
+.tagsenter{
+  padding: 1em 3em;
+  margin-bottom: 3em
+}
